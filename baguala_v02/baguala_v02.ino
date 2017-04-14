@@ -222,7 +222,8 @@ void enviaEmail(){
       content_length_here[0] = '0' + (compi/10);
       content_length_here[1] = '0' + (compi%10);
       client.print(post_rqst);
-
+      client.print(post_rqst);
+//comentario para sincronizar com o git
 
   }
 }
